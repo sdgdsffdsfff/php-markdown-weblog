@@ -1,0 +1,72 @@
+/* html>body { font-size: 14px; } */
+/* Custom Configuration */
+html {background: #eee!important;}
+#container {
+    background: white;
+    width: 90%;
+	max-width: 960px;
+    line-height: 1.5em;
+    margin: 1.5em auto 3em auto;
+    padding: 1.5em 2em;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 8px #aaa;
+    -webkit-box-shadow: 2px 2px 8px #aaa;
+    -moz-box-shadow: 2px 2px 8px #aaa;
+}
+
+#wiki_title, #title {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+    margin: 20px 0;
+}
+
+#title {
+    border-bottom: 1px dashed #eee;
+}
+
+#header {
+}
+
+#content {
+	/**padding: 5% 5%;**/
+}
+
+#footer {
+    margin: 10px auto;
+    color: grey;
+    font-size: 80%;
+    text-align: center;
+}
+
+/* Table of Contents */
+.toc {
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    border: 1px solid silver;
+    background-color: #ecf5ff;
+    float: right;
+    display: block;
+    font-size: 90%;
+}
+
+.toc > .toctitle {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.toc ul {
+    margin: 0;
+}
+
+ol.toc {
+	list-style: none!important;
+}
+
+@media only screen and (max-width: 640px) {
+	#toc_table {display: none;}
+}
+
